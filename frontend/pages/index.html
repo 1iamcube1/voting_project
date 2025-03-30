@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System Login</title>
+    <link rel="stylesheet" href="../css/style.css"> 
+    <script src="../js/auth.js" defer></script> 
+</head>
+<body>
+    <div class="container">
+        
+        <div class="image-box">
+            <img src="../assets/image/img_login.png" alt="Login Image">
+        </div>
+        
+        <div class="login-box">
+            <div class="login-content">
+                <h2>Welcome back to <span class="highlight">Voting System</span>,</h2>
+                <p>Đăng nhập bằng CCCD và OTP</p>
+                <form>
+                    <!-- Nhập CCCD -->
+                    <div class="input-group">
+                        <input type="text" placeholder="CCCD" id="cccd-input" required>
+                        <span class="icon"></span>
+                        <button type="button" class="send-otp-btn">
+                            <img src="../assets/icon/send_ic.png" alt="Send OTP" style="width: 30px; height: 30px;">
+                        </button>
+                    </div>
+                    
+                    <!-- Nhập OTP -->
+                    <div class="otp-container">
+                        <input type="text" maxlength="1" class="otp-input" required>
+                        <input type="text" maxlength="1" class="otp-input" required>
+                        <input type="text" maxlength="1" class="otp-input" required>
+                        <input type="text" maxlength="1" class="otp-input" required>
+                        <input type="text" maxlength="1" class="otp-input" required>
+                        <input type="text" maxlength="1" class="otp-input" required>
+                    </div>
+                    
+                    <!-- Nút đăng nhập -->
+                    <button type="submit" class="login-btn">Login</button>
+                </form>
+                <p class="signup-text">Chưa nhận được OTP? <a href="#">Gửi lại</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

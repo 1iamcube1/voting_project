@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote</title>
+    <link rel="stylesheet" href="../css/vote.css">
+    <script src="../js/vote.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Vote Box -->
+        <div class="vote-box">
+            <h2 class="vote-title">Voting</h2>
+            <div class="vote-buttons">
+                <button class="vote-btn blue-btn" id="candidate1">
+                    <img src="../assets/image/do_tram.png" alt="Đỗ Nam Trâm" class="candidate-img">
+                    Đỗ Nam Trâm
+                </button>
+                <button class="vote-btn pink-btn" id="candidate2">
+                    <img src="../assets/image/bi_den.png" alt="Dôn Bí Đèn" class="candidate-img">
+                    Dôn Bí Đèn
+                </button>
+            </div>
+        </div>
+
+        <!-- Countdown Box -->
+        <div class="countdown-container">
+            <h3>Time left to vote</h3>
+            <div class="countdown-timer">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <p>days</p>
+                </div>
+                <span class="separator">:</span>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <p>hours</p>
+                </div>
+                <span class="separator">:</span>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <p>minutes</p>
+                </div>
+                <span class="separator">:</span>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <p>seconds</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
