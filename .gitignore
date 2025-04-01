@@ -1,0 +1,25 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+*.egg-info/
+.env
+
+# Node.js-related 
+node_modules/
+dist/
+build/
+
+# Truffle-related 
+build/contracts/
+
+# IDE-related
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+*.tmp
